@@ -1,0 +1,99 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(
+    91.7deg,
+    rgb(50, 25, 79) -4.3%,
+    rgb(122, 101, 149) 101.8%
+  );
+}
+.wrapper {
+  border: 2px solid;
+  margin: 20px;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 4px;
+  background-color: rgb(206, 203, 209);
+  border-radius: 17px;
+  max-width: 43rem;
+  padding: 1.5rem;
+  box-shadow: 9px 9px 24px 6px #13223811;
+}
+input[type="text"] {
+  width: 60%;
+}
+input[type="submit"],
+input[type="text"] {
+  line-height: 30px;
+}
+input[type="submit"] {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 80px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+input[type="submit"]:hover {
+  background-color: rgb(77, 43, 116);
+}
+
+h1 {
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-bottom: 20px;
+  color: #560764;
+}
+.fa-cloud-rain {
+  font-size: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 20px;
+  color: rgb(76, 19, 102);
+}
+.fa-cloud-sun {
+  font-size: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 20px;
+  color: rgb(76, 19, 102);
+}
+.fa-poo-storm {
+  font-size: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 20px;
+  color: rgb(76, 19, 102);
+}
+.temperature,
+.weekday {
+  position: relative;
+  left: 15px;
+  font-size: 20px;
+  color: black;
+}
+.weekday {
+  margin-bottom: 10px;
+}
+.temperature-today {
+  font-size: 25px;
+}
+.wind {
+  margin-bottom: 30px;
+}
+.fa-sun {
+  font-size: 45px;
+  position: relative;
+  top: 8px;
+  color: rgb(76, 19, 102);
+}
+.col {
+  font-size: 19px;
+}
+.temperature-today {
+  position: relative;
+  top: 5px;
+}
+.despription {
+  text-transform: capitalize;
+}
